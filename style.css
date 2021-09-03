@@ -1,0 +1,29 @@
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    width: 1200px;
+    margin: 0 auto;
+    max-width: 100%;
+}
+header{
+    padding: 10px;
+    display: flex;
+   
+}
+nav{
+    display: flex;
+    padding: 10px;
+  
+}
+nav div{  
+    line-height: 35px;
+    padding: 10px;
+}
+header h1{
+    margin-right: auto;
+  
+}
+.skills-img img{
+    width: 5%;
+    padding: 10px;
+}
