@@ -1,29 +1,64 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
-    text-align: center;
-    width: 1200px;
+    text-align: left;
+    width: 1000px;
     margin: 0 auto;
     max-width: 100%;
 }
 header{
-    padding: 10px;
+   padding: 10 0;
     display: flex;
-   
+  
 }
 nav{
     display: flex;
     padding: 10px;
-  
+    
 }
-nav div{  
+nav div a{  
     line-height: 35px;
     padding: 10px;
+    
+}
+nav div a:hover{  
+    color:rgb(153, 148, 141);
+    
 }
 header h1{
     margin-right: auto;
+    font-weight:600;
   
 }
+
 .skills-img img{
     width: 5%;
     padding: 10px;
+    transition: width 1s;
+    
 }
+a{
+ 
+    color: black;
+}
+.img-contact img{
+    padding: 5px;
+    width: 5%;
+    
+}
+
+#pro-list:hover{
+    color:rgb(153, 148, 141);
+    cursor:pointer
+}
+ul{
+    transition: visibility 2s;
+    
+}
+@media screen and (max-width: 650px) {
+   header {
+        flex-direction: column;
+    }
+    nav {
+        flex-direction: column;
+    }
+  }
