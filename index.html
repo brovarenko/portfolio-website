@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap" rel="stylesheet">
     <title>My Portfolio</title>
 </head>
 <body>
@@ -34,20 +34,20 @@
     </section>
     <section class="skills">
         <h2>Skills</h2>
-        
         <div class="skills-img">
             <img class="img1" src="img/pngwing.com.png">
             <img class="img1" src="img/HTML5.png">
             <img class="img1" src="img/1_YWazhGyGmNs6K3HZE7lS7Q.png">
         </div>
     </section>
+    <div>
+        <img src="https://www.codewars.com/users/Brovarenko/badges/small" />
+    </div>
     <script>
         let x = document.getElementsByClassName("img1");
         let FunctionMore=(e)=>{
-            e.currentTarget.style.width="10%"
-            
-  }
-        
+            e.currentTarget.style.width="10%"     
+            }          
         let FunctionLess=(e)=>{
            e.currentTarget.style.width="5%"
         
@@ -58,15 +58,15 @@
         for(var i = 0; i < x.length; i++){
   x[i].onmouseover = FunctionMore
   x[i].onmouseout = FunctionLess
-}
+    }
   let list = document.getElementById("pro-list")
   let listul = document.getElementById("list-ul")
-  let hideFunc =()=>{
+  let hideFunc = ()=>{
       if(listul.hidden === true ){
-    listul.hidden =  false
-}
-    else{ listul.hidden = true }
-  }
+        listul.hidden =  false
+    }
+    else { listul.hidden = true }
+    }
   
   list.onclick = hideFunc
 
