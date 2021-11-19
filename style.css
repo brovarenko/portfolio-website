@@ -27,17 +27,14 @@ nav div a:hover{
 header h1{
     margin-right: auto;
     font-weight:600;
-  
 }
 
 .skills-img img{
     width: 5%;
     padding: 10px;
     transition: width 1s;
-    
 }
 a{
- 
     color: black;
 }
 .img-contact img{
@@ -46,13 +43,12 @@ a{
     
 }
 
-#pro-list:hover{
+.pro-list:hover{
     color:rgb(153, 148, 141);
     cursor:pointer
 }
 ul{
     transition: visibility 2s;
-    
 }
 @media screen and (max-width: 650px) {
    header {
