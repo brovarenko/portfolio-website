@@ -20,7 +20,7 @@ nav div a{
     padding: 10px;
     
 }
-nav div a:hover{  
+a:hover{  
     color:rgb(153, 148, 141);
     
 }
@@ -43,10 +43,7 @@ a{
     
 }
 
-.pro-list:hover{
-    color:rgb(153, 148, 141);
-    cursor:pointer
-}
+
 ul{
     transition: visibility 2s;
 }
