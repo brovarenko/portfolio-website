@@ -25,6 +25,7 @@ nav a {
   color: white;
   text-decoration: none;
   padding: 15px;
+  font-size: larger;
 }
 
 a {
@@ -91,8 +92,6 @@ a {
 #navbar a:hover {
   background-color: rgb(87, 87, 87);
 }
-#profile-link {
-}
 #contact {
   display: flex;
   flex-direction: column;
@@ -140,7 +139,7 @@ a {
 .certifies-items a:hover {
   color: rgb(204, 85, 6);
 }
-@media only screen and (max-width: 650px) {
+@media (max-width: 650px) {
   header {
     flex-direction: column;
   }
@@ -152,3 +151,9 @@ a {
     text-align: center;
   }
 }
+@media (max-width: 600px) {
+  body{
+    font-size: 1.2em;
+  }
+}
+
