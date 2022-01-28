@@ -3,6 +3,7 @@ body {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
+  
 }
 html {
   scroll-behavior: smooth;
@@ -54,6 +55,7 @@ a {
   display: flex;
   flex-direction: column;
   background-color: whitesmoke;
+  font-size: 1.1em;
 }
 .project-items {
   display: flex;
@@ -129,6 +131,7 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 1.1em;
 }
 .certifies-items {
   display: flex;
