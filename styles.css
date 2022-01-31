@@ -69,6 +69,18 @@ a {
   text-decoration: none;
   margin: 10px;
   border: 2px solid rgb(255, 255, 255);
+  
+}
+.animation{
+  animation: a1 1s ease-in;
+}
+@keyframes a1 {
+  from{
+      transform: rotateX(-90deg)
+  }
+  to{
+      transform: rotateX(0deg)
+  }
 }
 .project-items img {
   transition: border 1s, transform 1s;
